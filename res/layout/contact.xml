@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Email:"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="satymevjayate@akpflims.com"
+        android:textColor="#D2691E"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook :"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="facebook.com/SatyameJayate"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:textColor="#D2691E"
+        android:layout_marginLeft="80dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter:"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="twitter.com/satyamevjayate"
+        android:textColor="#D2691E"
+        android:textStyle="italic"
+        android:textSize="16sp"
+        android:layout_marginLeft="80dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#7CFC00"
+        android:text="Call_US" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="202dp"
+    android:background="@drawable/back67" ></LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back71">
+    
+
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset password"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/newpass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="Enter  new passwors"
+        android:layout_marginTop="7dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/newpass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" 
+        android:hint="Confirm your password"
+        android:layout_marginTop="7dp"
+        />
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change" 
+        android:layout_marginTop="7dp"/>
+   
+</LinearLayout>
+</LinearLayout>

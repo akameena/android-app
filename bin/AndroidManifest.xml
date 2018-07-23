@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="anil.satymev_jayte"
+    android:versionCode="11"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+ 
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+          
+        </activity>
+           <activity 
+           android:name="Main">
+            </activity>
+              <activity 
+           android:name="AlarmDemo">
+            </activity>
+            
+            <activity 
+           android:name="Info">
+            </activity>
+            <activity 
+           android:name="logout">
+            </activity>
+      
+        
+        <activity 
+           android:name="MainActivity2">
+           
+       </activity>
+        <activity 
+           android:name="Sign_up">
+           
+       </activity>
+        <activity 
+           android:name="Home1">
+           
+       </activity>
+       <activity 
+           android:name="Sign_In">
+           
+       </activity>
+       <activity 
+           android:name="season">
+           
+       </activity>
+         <activity 
+           android:name="Forpass">
+            </activity>
+            <activity 
+           android:name="Changepass">
+            </activity>
+       <activity 
+           android:name="Home">
+       </activity>
+       <activity 
+           android:name="Song">
+         </activity>
+         <activity 
+           android:name="Feedback">
+         </activity>
+         <activity 
+           android:name="About">
+         </activity>
+         <activity 
+           android:name="Teamlist">
+         </activity>
+          <activity 
+           android:name="Contact">
+           
+       </activity>
+       <receiver  android:name="MyManager"></receiver>
+         </application>
+
+</manifest>

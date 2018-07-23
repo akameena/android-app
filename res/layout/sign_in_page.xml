@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back71"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="User Name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="275dp"
+        android:layout_height="30dp"
+        android:layout_above="@+id/editText2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#eeee00"
+        android:hint="enter User Name"
+        android:inputType="textEmailAddress"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="275dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#eeee00"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:background="#B0171F"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/forpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:text="Forget Password"
+        android:textColor="#0000ff"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/createnewac"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+        android:text="Create new Account"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        android:layout_marginTop="18dp" />
+
+</LinearLayout>

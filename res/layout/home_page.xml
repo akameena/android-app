@@ -1,0 +1,87 @@
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/i3"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+     
+    <TextView
+            android:id="@+id/satymev1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:lines="1"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:text="Change is possible you can make it happen"
+            android:textSize="25dp" />
+
+    
+    
+     <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button5"
+        android:layout_below="@+id/button1"
+        android:text="SEASON"
+        android:background="@drawable/back1"  />
+     <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/button2"
+        android:text="GALLERY"
+        android:background="@drawable/back1" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button2"
+        android:background="@drawable/back1"
+        android:text="SONGS" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button5"
+        android:layout_below="@+id/button3"
+        android:text="FEEDBACK" 
+        android:background="@drawable/back1" />
+    
+        <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button4"
+        android:text="ABOUT US" 
+        android:background="@drawable/back1" />
+
+      <Button
+          android:id="@+id/button11"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentLeft="true"
+          android:layout_alignRight="@+id/button5"
+          android:layout_below="@+id/button5"
+          android:background="@drawable/back1"
+          android:text="CONTACT US" />
+
+      <Button
+          android:id="@+id/Reminder"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/back1"
+          android:text="Set Reminder" />
+    
+</LinearLayout>

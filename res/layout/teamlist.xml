@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/team1"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="       Satyamev Jayate Team"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#dc143c"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+     
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Director"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satyajit Bhatkal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Producers"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aamir Khan"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kiran Rao"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Co-Director And Field Research Head"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Svati Chakravarty Bhatkal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Core Creative Team"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aamir khan"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satyajit Bhatkal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Svati Chakravarty Bhatkal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monika shergil"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lancy Fernandes"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manisha Mudgal"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suresh Bhatia"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Christopher rego"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+     <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Music Composed,Arranged And Produced By"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+       
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ram Sampath"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+       </LinearLayout>
+    </ScrollView>
+    
+    
+</LinearLayout>

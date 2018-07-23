@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alaram"
+    android:orientation="vertical" >
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don&apos;t miss your show 
+        set reminder"
+        android:textColor="#dc143c"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+ />
+
+    <Button
+        android:id="@+id/rbutton1"
+        android:layout_width="102dp"
+        android:layout_height="95dp"
+        android:background="@drawable/alaram3" />
+
+    <Button
+        android:id="@+id/rbutton2"
+        android:layout_width="102dp"
+        android:layout_height="87dp"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:background="@drawable/settime" />
+
+    <Button
+        android:id="@+id/rbutton3"
+        android:layout_width="102dp"
+        android:layout_height="100dp"
+        android:background="@drawable/setalaram" />
+
+    <TextView
+        android:id="@+id/rtextView1"
+        android:layout_width="211dp"
+        android:layout_height="55dp"
+        android:background="@drawable/ashow"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"  >
+
+     
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="202dp"
+         android:background="@drawable/about"
+         android:orientation="vertical" >
+         
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="     Satymev Jayate is a TV
+show that discusses and provides 
+possible Solution to address social 
+issues in India.
+Know about the team behind the 
+making of the show and do send 
+your feedback to us"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#dc143c"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="116dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="200dp"
+        android:text="TeamList" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about2" >
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="200dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginBottom="0dp"
+        android:layout_weight="0.01"
+        android:text="Back" />
+
+</LinearLayout>
+
+</LinearLayout>
